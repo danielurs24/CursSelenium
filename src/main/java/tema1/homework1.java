@@ -35,6 +35,7 @@ public class homework1 {
 		if (!loginElement.isDisplayed() && !passwordElement.isDisplayed()) {
 			loginButtonElement.click();
 		}
+		
 		assertTrue(loginElement.isDisplayed());
 		assertTrue(passwordElement.isDisplayed());
 
